@@ -1,6 +1,5 @@
 const searchInput = document.querySelector('#search');
 const recipes = document.querySelectorAll('.recipe');
-const body = document.querySelector('body');
 
 searchInput.addEventListener('keyup', function(event) {
     const word = event.target.value.toLowerCase();
@@ -11,6 +10,3 @@ searchInput.addEventListener('keyup', function(event) {
     })
 })
 
-searchInput.addEventListener ('mousedown', function(event) {
-   document.querySelector('#search').value = '';
-})
